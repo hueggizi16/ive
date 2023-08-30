@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.main {
+    background-color: #663ef9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #663ef9;
+    color: aliceblue;
+    font-size: 30px;
+    height: 90px;
+}
+
+.titulo > h3 {
+    text-align: center;
+}
+
+.botoes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+button {
+    width: 190px;
+    height: 90px;
+    border-radius: 100px;
+    padding: .25rem .5rem;
+    font-weight: bold;
+    box-shadow: 0 0 24px 5px rgba(0, 0, 0, 0.644);
+    transition: all .1s ease-in-out;
+    text-shadow: -1px -1px 4px aliceblue;
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0 0 34px 5px rgba(0, 0, 0, 0.644);
+}
+
+.sin {
+    background-color: #ffa506;
+    border-color: #250ff3;
+}
+
+.nao {
+    background-color: #250ff3;
+    border-color: #ffd70d;
+    color:    #ffd70d;
+}
+/* .sin{
+    
+    width: 190px;
+    height: 90px;
+    background-color: #ffa506;
+    position: absolute;
+    transform: translate(670px,200px);
+    border-radius: 100px;
+    border-color: #250ff3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nao{
+    width: 190px;
+    height: 90px;
+    background-color: #250ff3;
+    position: absolute;
+    transform: translate(970px,200px);
+    border-radius: 100px;
+    border-color: #ffd70d;
+    font-style: normal;
+    color:    #ffd70d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1;
+}
+
+.titulo{
+    font-size: 30px;
+    width: 100vw;
+    height: 90px ;
+    background-color: #663ef9;
+    color: aliceblue;    
+    text-align: center;
+
+}
+.titulo > h3{
+    
+    font-family:'Courier New', Courier, monospace;
+    font-style:normal;
+    font-weight: 20;
+    box-shadow: 0px 0px 2px ;
+}
+
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #663ef9;
+} */
